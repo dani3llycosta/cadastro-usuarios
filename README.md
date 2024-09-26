@@ -1,5 +1,3 @@
----
-
 # Sistema de Cadastro de Usuários (CRUD usando LocalStorage)
 
 Este projeto é uma atividade desenvolvida como parte de um exercício prático e pessoal para implementar um sistema simples de cadastro de usuários (CRUD). Ele foi feito com JavaScript puro, utilizando LocalStorage para persistir os dados localmente no navegador.
