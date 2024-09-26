@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de usuários</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <main class="main-content">
+        <div class="main-welcome">
+            <h1>Bem-vindo(a)!</h1>
+            <h2>Faça aqui o gerenciamento dos seus funcionários.</h2>
+        </div>
+
+        <div id="main-menu">
+            <h2 class="title">O que você deseja fazer hoje?</h2>
+            <div id="options">
+                <button class="buttonData" onclick="showForm('addUser')">Adicionar Usuário</button>
+                <button class="buttonData" onclick="showForm('viewUsers')">Ver Usuários</button>
+            </div>
+        </div>
+        <div id="form-container"></div>
+        <div id="user-list"></div>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
